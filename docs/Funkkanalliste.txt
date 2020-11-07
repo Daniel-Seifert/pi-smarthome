@@ -1,0 +1,15 @@
+# Lampen
+Kanal 1: Lampe Wohnzimmer
+Kanal 2: Lampe Esszimmer
+Kanal 3: Lampe Flur-Esszimmer
+Kanal 4: Lampe Flur-Haustür
+Kanal 5: Lampe Flur-Bad
+Kanal 6: Lampe Schlafzimmer
+
+# Steckdosen
+Kanal 7:  Steckdose Fernseher Wohnzimmer
+Kanal 8:  Steckdose Fernseher Schlafzimmer
+Kanal 9:  Steckdose Lampe Flur
+Kanal 10: Steckdose Lampe Bett
+Kanal 11: Steckdose Mikrowelle
+Kanal 12: Steckdose Waschmaschine
