@@ -4,26 +4,19 @@
 <html lang="en">
   <head>
     <title>{% block title %}{% endblock %}</title>
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <!-- CSS -->
+    <!-- Keine Sau sagt was aber es MUSS dieser Pfad sein, da hat sich wieder jemand viele Gedanken gemacht bei der Flask Entwicklung NICHT!!!-->
+    <link rel="stylesheet" href='../static/style.css' />
   </head>
   <body>
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="/">Home</a></li>
-            <li role="presentation"><a href="/about">About</a></li>
-            <li role="presentation"><a href="http://flask.pocoo.org" target="_blank">More About Flask</a></li>
-          </ul>
-        </nav>
+      <div class="topnav">
+        <p>My Smart Home</p>
       </div>
       {% block body %}
       {% endblock %}
       <footer class="footer">
-        <p>© 2016 Your Name Here</p>
+        <p>© 2016 MMU-089</p>
       </footer>
     </div> <!-- /container -->
   </body>
