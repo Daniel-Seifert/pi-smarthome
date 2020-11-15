@@ -3,8 +3,38 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
 {% block body %}
-<div class="content">
-  <h1>Flask Is Awesome</h1>
-  <p> And I'm glad to be learning so much about it!</p>
+<!-- Container Group 1-->
+<div class="gallery_container">
+  <div class="gallery_frame">
+    <!-- Schlafzimmer Link-->
+    <a href="Schlafzimmer.html">
+      <img src="../static/schlafzimmer logo3.png" width="150" height="150">
+    </a>
+    <div class="img_desc">Schlafzimmer</div>
+  </div>
+  <div class="gallery_frame">
+    <!-- Wohnzimmer Link-->
+    <a href="Wohnzimmer.html">
+      <img src="../static/Wohnzimmer logo2.png" width="150" height="150">
+    </a>
+    <div class="img_desc">Wohnzimmer</div>
+  </div>
+</div>
+<!-- Container Group 2-->
+<div class="gallery_container">
+  <div class="gallery_frame">
+    <!-- Flur am Eingang Link-->
+    <a href="Flur_Eingang.html">
+      <img src="../static/flur logo Eingang.png" width="150" height="150">
+    </a>
+    <div class="img_desc">Flur-Eingang</div>
+  </div>
+  <div class="gallery_frame">
+    <!-- Flur bei den Baedern Link-->
+    <a href="Flur_Bad.html">
+      <img src="../static/flur logo Bad.png" width="150" height="150">
+    </a>
+    <div class="img_desc">Flur-Bad</div>
+  </div>
 </div>
 {% endblock %}
